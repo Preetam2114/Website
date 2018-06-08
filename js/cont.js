@@ -70,7 +70,7 @@ var speed = 50;
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
+    document.getElementById("tytxt").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
@@ -81,7 +81,7 @@ function typeWriter() {
 }
 
 function icon(){
-	document.getElementById("demo").innerHTML += ' <i class="fas fa-hands-helping"></i>';
+	document.getElementById("tytxt").innerHTML += ' <i class="fas fa-hands-helping"></i>';
 }
 
 function form() {

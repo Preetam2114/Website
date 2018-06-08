@@ -6,7 +6,6 @@
 }
 #h1{
 	font-weight: 20%;
-	font-size: 4em;
 }
 
 hr{
@@ -208,7 +207,7 @@ body {
 iframe{
   position:center center;
   height:45em;
-  width:45em;
+  width:80%;
 }
 
 
